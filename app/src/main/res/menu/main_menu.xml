@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/acDevices"
+            android:icon="@drawable/round_important_devices_black_24"
+            android:title="Devices"
+            app:showAsAction="always"/>
+    <group>
+        <item
+                android:id="@+id/acLocation"
+                android:icon="@drawable/round_room_black_24"
+                android:title="Location"
+                app:showAsAction="always"/>
+        <item
+                android:id="@+id/acRowing"
+                android:title="Rowing"
+                app:showAsAction="ifRoom"/>
+        <item
+                android:id="@+id/acLauncher"
+                android:title="Launcher"
+                app:showAsAction="ifRoom"/>
+
+    </group>
+</menu>
